@@ -13,10 +13,11 @@ invoice_filename = "Input\invoice2.jpg"
 def veryfiOCR(filename: str):
     
     # authentication for Veryfi OCR API
-    client_id = 'vrfL6cFwUWVntipoMh0sIHSfyJCEe5wUZsXbRIJ'
-    client_secret = 'okTwnHBNwPXULflEnWuvKsxD27dVZ9K2MbPF5v7CJENXGLONc6Ge3HUFiPx4nlpc5gTvS20ow5GN7zKRETC2iek65SfiWIE5ydL0SjbihbcA4f83Z9FB7ETZHBtHGikE'
-    username = 'stephenhwking499'
-    api_key = '1b902ae9a78e39945e26a345036e36ca'
+    #below details can be found in Keys section in Veryfi account
+    client_id = 'Client_id'
+    client_secret = 'client_secret'
+    username = 'username'
+    api_key = 'api_key'
     
     client = veryfi.Client(client_id, client_secret, username, api_key)
     
